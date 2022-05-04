@@ -1,0 +1,6 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Quote\Model\QuoteAddressValidator">
+        <plugin name="PixieMedia_InvalidCustomerAddressId_Plugin_Frontend_Magento_Quote_Model_QuoteAddressValidator" type="PixieMedia\InvalidCustomerAddressId\Plugin\Frontend\Magento\Quote\Model\QuoteAddressValidator" sortOrder="10" disabled="false"/>
+    </type>
+</config>
