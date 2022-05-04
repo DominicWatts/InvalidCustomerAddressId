@@ -1,4 +1,4 @@
-# PixieMedia Invalid Customer Address Id
+# Invalid Customer Address Id
 
 Plugin for Invalid customer address id # - thrown by QuoteAddressValidator
 
