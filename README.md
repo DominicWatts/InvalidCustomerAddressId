@@ -1,4 +1,4 @@
-# PixieMedia Invalid Customer Address Id
+# Invalid Customer Address Id
 
 Plugin for Invalid customer address id # - thrown by QuoteAddressValidator
 
@@ -9,3 +9,11 @@ Plugin for Invalid customer address id # - thrown by QuoteAddressValidator
 [![PHPCompatibility](https://github.com/DominicWatts/InvalidCustomerAddressId/actions/workflows/phpcompatibility.yml/badge.svg)](https://github.com/DominicWatts/InvalidCustomerAddressId/actions/workflows/phpcompatibility.yml)
 
 [![M2 PHPStan](https://github.com/DominicWatts/InvalidCustomerAddressId/actions/workflows/phpstan.yml/badge.svg)](https://github.com/DominicWatts/InvalidCustomerAddressId/actions/workflows/phpstan.yml)
+
+# Install instructions #
+
+`composer require dominicwatts/invalidcustomeraddressid`
+
+`php bin/magento setup:upgrade`
+
+`php bin/magento setup:di:compile`
